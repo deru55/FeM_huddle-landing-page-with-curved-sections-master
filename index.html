@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huddle landing page with curved sections</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="wrapper nav-wrapper">
+        <a href="#"
+          ><svg class="header-logo" width="240" height="39">
+            <use xlink:href="images/logo.svg#logo"></use>
+          </svg>
+        </a>
+        <button class="button inverted">Try It Free</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrapper" data-max-width="none">
+        <section
+          id="hero"
+          class="flow text-align-center padding-inline-500 padding-block-700 max-width"
+        >
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p class="margin-inline-auto" style="max-width: 30rem">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button class="button" style="--flow-spacer: 2rem">
+            Get Started For Free
+          </button>
+          <div style="--flow-spacer: 5rem">
+            <img
+              src="images/screen-mockups.svg"
+              alt=""
+              style="margin-inline: auto"
+            />
+          </div>
+          <div
+            class="even-columns justify-content-center grid-cols-md"
+            style="--flow-spacer: 5rem"
+          >
+            <div>
+              <div>
+                <img class="icon" src="images/icon-communities.svg" alt="" />
+              </div>
+              <p><span>1.4k+</span>Communities Formed</p>
+            </div>
+
+            <div>
+              <div>
+                <img class="icon" src="images/icon-messages.svg" alt="" />
+              </div>
+              <p><span>2.7m+</span>Messages Sent</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="padding-block-700 grid-section">
+          <div class="bg-neutral-1">
+            <picture>
+              <source
+                srcset="images/bg-section-top-desktop-1.svg"
+                media="(min-width: 1024px)"
+              />
+              <img
+                src="images/bg-section-top-mobile-1.svg"
+                alt=""
+                class="bg-waves"
+              />
+            </picture>
+
+            <div
+              class="even-columns text-align-center-md padding-block-500 padding-inline-500 max-width align-items-center"
+            >
+              <div class="grid-order">
+                <img src="images/illustration-grow-together.svg" alt="" />
+              </div>
+
+              <div class="flow">
+                <h2>Grow Together</h2>
+                <p>
+                  Generate meaningful discussions with your audience and build a
+                  strong, loyal community. Think of the insightful conversations
+                  you miss out on with a feedback form.
+                </p>
+              </div>
+            </div>
+
+            <picture>
+              <source
+                srcset="images/bg-section-bottom-desktop-1.svg"
+                media="(min-width: 1024px)"
+              />
+              <img
+                src="images/bg-section-bottom-mobile-1.svg"
+                alt=""
+                class="bg-waves"
+              />
+            </picture>
+          </div>
+
+          <div
+            class="even-columns text-align-center-md padding-block-500 padding-inline-500 max-width align-items-center"
+          >
+            <div>
+              <img src="images/illustration-flowing-conversation.svg" alt="" />
+            </div>
+
+            <div class="flow">
+              <h2>Flowing Conversations</h2>
+              <p>
+                You wouldn't paginate a conversation in real life, so why do it
+                online? Our threads have just-in-time loading for a more natural
+                flow.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-neutral-1">
+            <picture>
+              <source
+                srcset="images/bg-section-top-desktop-2.svg"
+                media="(min-width: 1024px)"
+              />
+              <img
+                src="images/bg-section-top-mobile-2.svg"
+                alt=""
+                class="bg-waves"
+              />
+            </picture>
+
+            <div
+              class="even-columns text-align-center-md padding-block-500 padding-inline-500 max-width align-items-center"
+            >
+              <div class="grid-order">
+                <img src="images/illustration-your-users.svg" alt="" />
+              </div>
+
+              <div class="flow">
+                <h2>Your Users</h2>
+                <p>
+                  It takes no time al all to integrate Huddle with your app's
+                  authentication solution. This means, once signed in to your
+                  app, your users can start chatting immediately.
+                </p>
+              </div>
+            </div>
+
+            <picture>
+              <source
+                srcset="images/bg-section-bottom-desktop-2.svg"
+                media="(min-width: 1024px)"
+              />
+              <img
+                src="images/bg-section-bottom-mobile-2.svg"
+                alt=""
+                class="bg-waves"
+              />
+            </picture>
+          </div>
+        </section>
+
+        <section class="text-align-center flow padding max-width">
+          <h2>Ready To Build Your Community?</h2>
+          <button class="button">Get Started For Free</button>
+        </section>
+      </div>
+    </main>
+
+    <footer class="primary-footer | bg-neutral-8">
+      <picture>
+        <source
+          srcset="images/bg-footer-top-desktop.svg"
+          media="(min-width: 1024px)"
+        />
+        <img class="bg-waves" src="images/bg-footer-top-mobile.svg" alt="" />
+      </picture>
+
+      <div class="wrapper text-neutral-1">
+        <div class="even-columns | padding-inline-500 padding-block-500">
+          <div class="cta | flow grid-order">
+            <h2 class="fs-425">NEWSLETTER</h2>
+            <p style="max-width: 22rem">
+              To receive tips on how to grow your community, sign up to our
+              weekly newsletter. We'll never send you spam or pass on your email
+              address
+            </p>
+            <form action="" class="flex-form">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email..."
+              />
+              <button class="button square">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="flow" style="--flow-spacer: 2.5rem">
+            <div>
+              <div class="footer-logo">
+                <a href="#">
+                  <svg class="filter-white" width="240" height="39">
+                    <use xlink:href="images/logo.svg#logo"></use>
+                  </svg>
+                </a>
+              </div>
+              <p style="margin-top: 1rem; max-width: 20rem">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+              </p>
+            </div>
+
+            <div>
+              <p class="flex-row">
+                <img src="images/icon-phone.svg" alt="" /> Phone:
+                +1-543-123-4567
+              </p>
+              <p class="flex-row" style="margin-top: 1rem">
+                <img src="images/icon-email.svg" alt="" /> example@company.com
+              </p>
+            </div>
+
+            <div>
+              <ul class="flex-row">
+                <a class="social-link fb-link" href="#">
+                  <i class="fa-brands fa-facebook fa"></i>
+                </a>
+                <a class="social-link in-link" href="#">
+                  <i class="fa-brands fa-instagram fa"></i>
+                </a>
+                <a class="social-link tw-link" href="#">
+                  <i class="fa-brands fa-twitter fa"></i>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
